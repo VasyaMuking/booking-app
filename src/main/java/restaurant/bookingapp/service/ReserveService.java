@@ -1,6 +1,10 @@
 package restaurant.bookingapp.service;
 
-public class ReserveService {
-    public reserveTable
-    public dropReserve
+import restaurant.bookingapp.dto.RequestReserveDto;
+
+public interface ReserveService {
+
+    void reserveTable(RequestReserveDto requestReserveDto);
+
+    public void dropReserve();
 }
